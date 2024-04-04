@@ -1,0 +1,56 @@
+
+.man__list>.item {
+  width: 100%;
+  height: 456px;
+  background-position: top bottom, center;
+}
+
+
+.man__list {
+  display: flex;
+  gap: 30px;
+}
+
+.man__title {
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-variant: all-small-caps;
+}
+
+.man__text {
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+}
+// 
+.tumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.tumb__overley {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 231, 80, 0.744);
+
+  transform: translateY(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.tumb:hover .tumb__overley {
+  transform: translateY(0);
+}

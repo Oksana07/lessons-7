@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  background: #202020;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#runningNav {
+  margin: 10% auto;
+  display: block;
+  list-style: none;
+  position: relative;
+  padding: 0;
+  width: 960px;
+  height: 26px;
+
+  li {
+    float: left;
+
+    a {
+      color: #bbb;
+      font-size: 17px;
+      float: left;
+      padding: 6px 10px 4px 10px;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      &:hover {
+        color: white;
+      }
+    }
+
+    &.current {
+      a {
+        color: white;
+      }
+    }
+  }
+}
+
+#runningLine {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100px;
+  height: 2px;
+  background: #38FE02;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+  <!-- menu -->
+  <ul class="menu">
+    <li><a href="#">Главная</a></li>
+    <li><a href="#">Про нас</a></li>
+    <li><a href="#">Послуги</a></li>
+    <li><a href="#">Контакти</a></li>
+  </ul>
+
+  <ul id="runningNav">
+    <li class="current">
+      <a href="#">Home</a>
+    </li>
+    <li><a href="#">Buy Tickets</a></li>
+    <li><a href="#">Group Sales</a></li>
+    <li><a href="#">Reviews</a></li>
+    <li><a href="#">The Show</a></li>
+    <li><a href="#">Videos</a></li>
+    <li><a href="#">Photos</a></li>
+    <li><a href="#">Magic Shop</a></li>
+  </ul>
+
+  <!-- modal -->
+  <button class="btn" id="openModalBtn">Відкрити модалку</button>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quod porro pariatur eligendi debitis, facere
+        ea nulla beatae quidem dolore ducimus maiores voluptate animi perferendis accusamus nihil cumque incidunt quis.
+        Mollitia voluptatum sapiente molestias esse quo aliquid eos quos, ullam praesentium voluptate natus veniam fugit
+        tempore nesciunt asperiores culpa est!</p>
+    </div>
+  </div>
+
+  <!-- overley -->
+  <ul class="man__list">
+    <li class="item">
+      <div class="tumb">
+        <img src="./img/first-man.jpg" alt="first-man" width="380" />
+        <div class="tumb__overley">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, incidunt!</p>
+        </div>
+      </div>
+    </li>
+
+    <li class="item">
+      <img src="./img/second-man.jpg" alt="second-man" width="380" />
+
+    </li>
+
+    <li class="item">
+      <img src="./img/third-man.jpg" alt="third-man" width="380" />
+
+    </li>
+  </ul>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./js/menu.js" type="module"></script>
+  <script src="./js/modal.js" type="module"></script>
+
+
+</body>
+
+</html>
